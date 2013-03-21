@@ -8,16 +8,27 @@
   
   <body>
     <div class="tabs">
-      <a class="tab active" href="tab1">All</a>
-      <a class="tab" href="tab2">Categorized</a>
+      <a class="tab active" id = "task" href="tab1">All</a>
+      <a class="tab" id = "category" href="tab2">Categorized</a>
       <a class="tab" href="tab3">Edit</a>
-    </div>
+    </div><!-- end of tabs -->
     
     <div class="content">
-      <div class="tab active" id="tasks">&nbsp;</div>
-      <div class="tab" id="categoryList">&nbsp;</div>
-      <div class="tab" id="addTasks">&nbsp;</div>
-    </div>
+      <div class = "tab active" id = "tab1">
+        <div class = "currentTasks"></div>
+      </div>
+      <div class = "tab" id ="tab2">
+        <div class = "category"></div>
+      </div>
+      <div class = "tab" id = "tab3">
+        <div class = "editTab">
+          <div class = "newTask">Task:<input type = "text" id ="newTask" /></div>
+          <div class = "newCategory">Category:<input type ="text" id = "newCategory"/> </div>
+          <div class = "addButton"><button id = "inputButton">Add Item</button></div>
+        </div>
+    </div><!-- end of content class -->
+
+
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="javascripts/app/app.js"></script>
   </body>
