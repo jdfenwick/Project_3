@@ -4,3 +4,16 @@
 .content .active{
   display: block;
 }
+
+.contentTab{
+  padding:10px;
+  display:block;
+}
+
+.tabs .active{
+  background: grey;
+}
+
+.content{
+  background: grey;
+}
