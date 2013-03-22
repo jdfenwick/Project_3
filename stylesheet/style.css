@@ -1,17 +1,25 @@
-
-.content .active{
-  display: block;
-}
-
-.contentTab{
-  padding:10px;
-  display:block;
-}
-
 .tabs .active{
-  background: grey;
+  background: #8D2373;
 }
 
 .content{
-  background: grey;
+  background: #7D71D8;
+}
+
+body{
+  background:#8E41D5;
+}
+.tabs{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 150%;
+  text-align:center;
+}
+h1{
+  font-family: 'Ubuntu', sans-serif;
+  font-size:250%;
+  text-align:center;
+}
+.editTab{
+  font-family: 'Ubuntu', sans-serif;
+  text-align:center;
 }
