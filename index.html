@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ToDo List</title>
-    <link rel="stylesheet" href="stylesheet/style.css">
-    <link rel "stylesheet" href ="stylesheet/reset.css">
+    <title>To Do List</title>
+    <link rel ="stylesheet" href ="stylesheet/reset.css" />
+    <link rel ="stylesheet" href ="stylesheet/style.css" />
   </head>
-  
   <body>
-    <div class="tabs">
-      <a class="tab active" id = "task" href="tab1">All</a>
-      <a class="tab" id = "category" href="tab2">Categorized</a>
-      <a class="tab" href="tab3">Edit</a>
-    </div><!-- end of tabs -->
-    
-    <div class="content">
-      <div class = "tab active" id = "tab1">
-        <div class = "currentTasks"></div>
+    <div class ="tabs">
+      <a class ="tab active" id ="all" href ="tab1">All</a>
+      <a class ="tab" id ="category" href ="tab2">Categories</a>
+      <a class ="tab" href ="tab3">Edit</a>
+    </div><!-- end of tabs-->
+    <div class ="content">
+      <div class ="tab active" id ="tab1">
+        <div class ="allTasks"></div>
       </div>
-      <div class = "tab" id ="tab2">
-        <div class = "category"></div>
+      <div class ="tab" id ="tab2">
+        <div class ="byCategories"></div>
       </div>
-      <div class = "tab" id = "tab3">
-        <div class = "editTab">
-          <div class = "newTask">Task:<input type = "text" id ="newTask" /></div>
-          <div class = "newCategory">Category:<input type ="text" id = "newCategory"/> </div>
-          <div class = "addButton"><button id = "inputButton">Add Item</button></div>
+      <div class ="tab" id ="tab3">
+        <div class ="editTab">
+          <div class ="newTask">Task:<input type="text" size ="33" id ="newTask" /></div>
+          <div class ="newCategory">Category:<input type="text" id ="newCategory" /></div>
+          <div class ="addButton"><button id="inputButton">Add Item To List</button></div>
         </div>
-    </div><!-- end of content class -->
-
-
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="javascripts/app/app.js"></script>
+      </div>
+    </div><!-- end of content-->
+   <script src ="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+   <script src ="javascripts/app/app.js"></script>
   </body>
 </html>
